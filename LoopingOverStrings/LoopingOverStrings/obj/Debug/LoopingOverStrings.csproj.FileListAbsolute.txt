@@ -1,0 +1,6 @@
+C:\Users\Admin\Documents\GitHub\citizenkraft\LoopingOverStrings\LoopingOverStrings\bin\Debug\LoopingOverStrings.exe.config
+C:\Users\Admin\Documents\GitHub\citizenkraft\LoopingOverStrings\LoopingOverStrings\bin\Debug\LoopingOverStrings.exe
+C:\Users\Admin\Documents\GitHub\citizenkraft\LoopingOverStrings\LoopingOverStrings\bin\Debug\LoopingOverStrings.pdb
+C:\Users\Admin\Documents\GitHub\citizenkraft\LoopingOverStrings\LoopingOverStrings\obj\Debug\LoopingOverStrings.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\citizenkraft\LoopingOverStrings\LoopingOverStrings\obj\Debug\LoopingOverStrings.exe
+C:\Users\Admin\Documents\GitHub\citizenkraft\LoopingOverStrings\LoopingOverStrings\obj\Debug\LoopingOverStrings.pdb

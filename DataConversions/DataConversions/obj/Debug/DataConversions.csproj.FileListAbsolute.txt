@@ -1,0 +1,6 @@
+C:\Users\Admin\Documents\GitHub\citizenkraft\DataConversions\DataConversions\bin\Debug\DataConversions.exe.config
+C:\Users\Admin\Documents\GitHub\citizenkraft\DataConversions\DataConversions\bin\Debug\DataConversions.exe
+C:\Users\Admin\Documents\GitHub\citizenkraft\DataConversions\DataConversions\bin\Debug\DataConversions.pdb
+C:\Users\Admin\Documents\GitHub\citizenkraft\DataConversions\DataConversions\obj\Debug\DataConversions.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\citizenkraft\DataConversions\DataConversions\obj\Debug\DataConversions.exe
+C:\Users\Admin\Documents\GitHub\citizenkraft\DataConversions\DataConversions\obj\Debug\DataConversions.pdb

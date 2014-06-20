@@ -1,0 +1,6 @@
+C:\Users\Admin\Documents\GitHub\citizenkraft\LoopPractice\LoopPractice\bin\Debug\LoopPractice.exe.config
+C:\Users\Admin\Documents\GitHub\citizenkraft\LoopPractice\LoopPractice\bin\Debug\LoopPractice.exe
+C:\Users\Admin\Documents\GitHub\citizenkraft\LoopPractice\LoopPractice\bin\Debug\LoopPractice.pdb
+C:\Users\Admin\Documents\GitHub\citizenkraft\LoopPractice\LoopPractice\obj\Debug\LoopPractice.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\citizenkraft\LoopPractice\LoopPractice\obj\Debug\LoopPractice.exe
+C:\Users\Admin\Documents\GitHub\citizenkraft\LoopPractice\LoopPractice\obj\Debug\LoopPractice.pdb
