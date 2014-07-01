@@ -1,0 +1,6 @@
+C:\Users\Admin\Documents\GitHub\LambdaPractice\LambdaPractice\bin\Debug\LambdaPractice.exe.config
+C:\Users\Admin\Documents\GitHub\LambdaPractice\LambdaPractice\bin\Debug\LambdaPractice.exe
+C:\Users\Admin\Documents\GitHub\LambdaPractice\LambdaPractice\bin\Debug\LambdaPractice.pdb
+C:\Users\Admin\Documents\GitHub\LambdaPractice\LambdaPractice\obj\Debug\LambdaPractice.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\LambdaPractice\LambdaPractice\obj\Debug\LambdaPractice.exe
+C:\Users\Admin\Documents\GitHub\LambdaPractice\LambdaPractice\obj\Debug\LambdaPractice.pdb
