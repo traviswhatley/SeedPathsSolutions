@@ -6,10 +6,52 @@ using System.Threading.Tasks;
 
 namespace LoopPractice
 {
+    enum Rank
+    {
+        three = 3,
+        four,
+        five,
+        Q,
+        K 
+    }
+    
+    class Hand
+    {
+
+        //"3D", "QS"
+        public Rank Rank { get; set; }
+        public string MyProperty { get; set; }
+
+        public string justAVariable = "asDF";
+
+        public Hand(string rank)
+        {
+            if ("AKQJT".Contains(rank)) 
+            { 
+                //(Rank) says the generic object that Enum.Parse() returns is going to be of type Rank
+                this.Rank = (Rank)Enum.Parse(typeof(Rank), rank); 
+            }
+            else {
+                //our card is an Integer
+                //turn an int into a enum
+                this.Rank = (Rank)int.Parse(rank);
+            }
+
+        }
+
+        public string something()
+        {
+            return "hi";
+        }
+    }
+
     class Program
     {
         static void Main(string[] args)
         {
+            var x = new Hand("3");
+            var y = new Hand("K");
+            var z = new Hand("Q");
             for (int i = 1; i <= 100; i = i + 1)
             {
                 FizzBuzz(i);
