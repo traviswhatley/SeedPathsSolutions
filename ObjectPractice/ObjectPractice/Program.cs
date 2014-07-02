@@ -23,6 +23,14 @@ namespace ObjectPractice
 
             //Console.WriteLine(Car2.GetInfo());
 
+            Student Pat = new Student("Pat", "McClary", 1337);
+            Pat.Courses.Add(new Course("Professional Development", "A"));
+            Pat.Courses.Add(new Course("Intro to Business", "C"));
+            Pat.Courses.Add(new Course("Being Rad", "B"));
+            Pat.Courses.Add(new Course("Intro to Programming", "D"));
+            Pat.Courses.Add(new Course("Hockey 101", "A"));
+            Pat.PrintInfo();
+
             Console.ReadKey(); //Keep the console open
         }
     }
