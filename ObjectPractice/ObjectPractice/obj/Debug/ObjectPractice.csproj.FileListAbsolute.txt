@@ -1,0 +1,6 @@
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutionsWeek1\ObjectPractice\ObjectPractice\bin\Debug\ObjectPractice.exe.config
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutionsWeek1\ObjectPractice\ObjectPractice\bin\Debug\ObjectPractice.exe
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutionsWeek1\ObjectPractice\ObjectPractice\bin\Debug\ObjectPractice.pdb
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutionsWeek1\ObjectPractice\ObjectPractice\obj\Debug\ObjectPractice.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutionsWeek1\ObjectPractice\ObjectPractice\obj\Debug\ObjectPractice.exe
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutionsWeek1\ObjectPractice\ObjectPractice\obj\Debug\ObjectPractice.pdb
