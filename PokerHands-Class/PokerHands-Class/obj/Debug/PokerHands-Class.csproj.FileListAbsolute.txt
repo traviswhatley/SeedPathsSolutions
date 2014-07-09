@@ -1,0 +1,6 @@
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\PokerHands-Class\PokerHands-Class\bin\Debug\PokerHands-Class.exe.config
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\PokerHands-Class\PokerHands-Class\bin\Debug\PokerHands-Class.exe
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\PokerHands-Class\PokerHands-Class\bin\Debug\PokerHands-Class.pdb
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\PokerHands-Class\PokerHands-Class\obj\Debug\PokerHands-Class.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\PokerHands-Class\PokerHands-Class\obj\Debug\PokerHands-Class.exe
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\PokerHands-Class\PokerHands-Class\obj\Debug\PokerHands-Class.pdb

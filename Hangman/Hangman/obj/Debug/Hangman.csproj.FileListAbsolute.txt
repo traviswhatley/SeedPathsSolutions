@@ -4,3 +4,6 @@ C:\Users\Admin\Documents\GitHub\SeedPathsSolutionsWeek1\Hangman\Hangman\bin\Debu
 C:\Users\Admin\Documents\GitHub\SeedPathsSolutionsWeek1\Hangman\Hangman\obj\Debug\Hangman.csprojResolveAssemblyReference.cache
 C:\Users\Admin\Documents\GitHub\SeedPathsSolutionsWeek1\Hangman\Hangman\obj\Debug\Hangman.exe
 C:\Users\Admin\Documents\GitHub\SeedPathsSolutionsWeek1\Hangman\Hangman\obj\Debug\Hangman.pdb
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\Hangman\Hangman\bin\Debug\Hangman.exe.config
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\Hangman\Hangman\obj\Debug\Hangman.exe
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\Hangman\Hangman\obj\Debug\Hangman.pdb
