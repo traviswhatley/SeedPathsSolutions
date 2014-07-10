@@ -1,0 +1,8 @@
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\ContactFormConsole\ContactFormConsole\bin\Debug\ContactFormConsole.exe.config
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\ContactFormConsole\ContactFormConsole\bin\Debug\ContactFormConsole.exe
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\ContactFormConsole\ContactFormConsole\bin\Debug\ContactFormConsole.pdb
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\ContactFormConsole\ContactFormConsole\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\ContactFormConsole\ContactFormConsole\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\ContactFormConsole\ContactFormConsole\obj\Debug\ContactFormConsole.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\ContactFormConsole\ContactFormConsole\obj\Debug\ContactFormConsole.exe
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\ContactFormConsole\ContactFormConsole\obj\Debug\ContactFormConsole.pdb

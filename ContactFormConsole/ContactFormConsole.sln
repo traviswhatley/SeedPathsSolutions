@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactFormConsole", "ContactFormConsole\ContactFormConsole.csproj", "{0275EACF-818C-42A7-A780-8558BC07863C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0275EACF-818C-42A7-A780-8558BC07863C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0275EACF-818C-42A7-A780-8558BC07863C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0275EACF-818C-42A7-A780-8558BC07863C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0275EACF-818C-42A7-A780-8558BC07863C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
