@@ -2,7 +2,6 @@
     font-size: .85em;
     font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
     color: #232323;
-    background-color: #fff;
 }
 
 header, footer, nav, section {
@@ -82,7 +81,7 @@ a:hover {
 
 .headerImg 
 {
-    width:100%;
+    
 }
 
 body {
@@ -114,4 +113,8 @@ ul {
     margin: 0 20% 0 20%;
     border:1px black solid;
     min-height:100%;
+}
+
+.homeLink {
+    cursor:pointer;
 }

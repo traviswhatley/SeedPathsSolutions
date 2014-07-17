@@ -13,6 +13,12 @@ namespace PortfolioSite_Class.Controllers
 
         public ActionResult Index()
         {
+            //return a partial view if its an ajax request
+            if (Request.IsAjaxRequest())
+            {
+                return PartialView();
+            }
+            //otherwise, return a regular ole view
             return View();
         }
 

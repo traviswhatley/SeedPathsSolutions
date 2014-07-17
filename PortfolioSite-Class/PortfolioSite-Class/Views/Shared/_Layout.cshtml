@@ -13,10 +13,8 @@
         <h1>Dustin Kraft</h1>
         <nav>
             <ul>
-                <li>
-                    <a href="@Url.Action("Index", "Home")">
+                <li class="homeLink" data-url="@Url.Action("Index", "Home")">
                         Home
-                    </a>
                 </li>
                 <li>
                     <a href="@Url.Action("About", "Home")">
@@ -36,13 +34,18 @@
             </ul>
         </nav>
     </header>
+
     <div id="content">
         @RenderBody()
     </div>
+
     <footer id="footer">
         Some stuff, and things
     </footer>
     @Scripts.Render("~/bundles/jquery")
     @RenderSection("scripts", required: false)
+
+    @*Add a link to our custom jQuery script*@
+    <script src="/Scripts/Main.js"></script>
 </body>
 </html>
