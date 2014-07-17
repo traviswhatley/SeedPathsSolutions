@@ -59,3 +59,12 @@ textarea {
 .validation-summary-valid {
     display: none;
 }
+
+/*make the likes class look like a link*/
+.likes 
+{
+    /*makes the pointer finger
+        come up on mouse over*/
+    cursor:pointer;
+    text-decoration:underline;
+}

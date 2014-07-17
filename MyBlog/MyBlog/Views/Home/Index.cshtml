@@ -20,7 +20,8 @@
                 }
                 @post.Body
             </div>
-            <div class="likes">
+            @*data-id holds the postID of this particular post*@
+            <div class="likes" data-id="@post.PostID">
                 @post.Likes likes
             </div>
             <div class="commentContainer">

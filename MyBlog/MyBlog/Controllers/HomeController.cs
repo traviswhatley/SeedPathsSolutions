@@ -21,5 +21,19 @@ namespace MyBlog.Controllers
             return View(db.Posts.OrderByDescending(x=>x.DateCreated));
         }
 
+        // GET: /Home/Like/id
+        public ActionResult Like(int id)
+        {
+            //go to the database and retrieve the post
+            // that matches the id
+            Models.Post post = db.Posts.Find(id);
+            //add 1 to the post likes
+            post.Likes = post.Likes + 1;
+            //save that changes to the database
+            db.SaveChanges();
+            //return the the number of likes
+            return Content(post.Likes + " likes");
+        }
+
     }
 }
