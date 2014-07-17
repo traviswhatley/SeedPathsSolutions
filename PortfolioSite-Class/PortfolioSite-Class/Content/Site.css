@@ -59,3 +59,59 @@ textarea {
 .validation-summary-valid {
     display: none;
 }
+
+
+/*My cats and dogs CSS*/
+div {
+    color:red;
+}
+
+.dogs 
+{
+    color:fuchsia;
+}
+
+a {
+    color:green;
+    transition:all 1s;
+    text-decoration:none;
+}
+a:hover {
+    color:#2dd8c3
+}
+
+.headerImg 
+{
+    width:100%;
+}
+
+body {
+    margin:0;
+}
+
+li {
+    display:inline-block;
+    margin: 5px 5% 3em 5pt;
+}
+
+ul {
+    padding:0;
+    text-align:center;
+}
+.divImg {
+    display:inline-block;
+}
+.divImg img {
+    width:150px;
+    border-radius:50%;
+    
+}
+.divImg img:hover {
+    opacity:.2;
+}
+
+#content {
+    margin: 0 20% 0 20%;
+    border:1px black solid;
+    min-height:100%;
+}

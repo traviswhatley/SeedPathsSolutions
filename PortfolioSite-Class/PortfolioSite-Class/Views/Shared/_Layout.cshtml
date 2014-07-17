@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <img src="~/Content/logo.png"/>
+        <img class="headerImg" src="~/Content/logo.png"/>
         <h1>Dustin Kraft</h1>
         <nav>
             <ul>
@@ -36,7 +36,12 @@
             </ul>
         </nav>
     </header>
-    @RenderBody()
+    <div id="content">
+        @RenderBody()
+    </div>
+    <footer id="footer">
+        Some stuff, and things
+    </footer>
     @Scripts.Render("~/bundles/jquery")
     @RenderSection("scripts", required: false)
 </body>
