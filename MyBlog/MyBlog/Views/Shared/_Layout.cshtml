@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <h1>My Blog</h1>
+        <h1><a href="@Url.Action("Index", "Home")">My Blog</a></h1>
         @*if Request.IsAuthenticated is true
         the user is logged in*@
         @if (Request.IsAuthenticated)
@@ -17,7 +17,8 @@
             <div>
                  Welcome @User.Identity.Name!  @*welcome <username>*@
                  &nbsp;|&nbsp;<a href="@Url.Action("Logout", "Account")">Logout</a>
-                 &nbsp;|&nbsp;<a href="@Url.Action("Create", "Post")">Create a new post</a>
+                 &nbsp;|&nbsp;<a href="@Url.Action("Index", "Post")">View Your Posts</a>
+                 &nbsp;|&nbsp;<a href="@Url.Action("Create", "Post")">Create a New Post</a>
             </div>
         }
         else
@@ -31,6 +32,10 @@
     @*RenderBody() is where our views get
     rendered (output)*@
     @RenderBody()
+
+    <footer>
+        Copyright
+    </footer>
 
     @Scripts.Render("~/bundles/jquery")
     @RenderSection("scripts", required: false)
