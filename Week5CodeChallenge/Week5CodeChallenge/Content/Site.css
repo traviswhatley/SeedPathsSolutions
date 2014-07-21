@@ -1,0 +1,122 @@
+﻿body {
+    font-size: .85em;
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+    color: #232323;
+    background-color: #fff;
+    padding: 0;
+    margin:0;
+}
+
+header, footer, nav, section {
+    display: block;
+}
+
+
+/* Styles for basic forms
+-----------------------------------------------------------*/
+fieldset {
+    border: 1px solid #ddd;
+    padding: 0 1.4em 1.4em 1.4em;
+    margin: 0 0 1.5em 0;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+textarea {
+    min-height: 75px;
+}
+
+.editor-label {
+    margin: 1em 0 0 0;
+}
+
+.editor-field {
+    margin: 0.5em 0 0 0;
+}
+
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error {
+    color: #f00;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.input-validation-error {
+    border: 1px solid #f00;
+    background-color: #fee;
+}
+
+.validation-summary-errors {
+    font-weight: bold;
+    color: #f00;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+ul{
+    padding:0;
+    margin:0;
+}
+
+nav ul li
+{
+    display:inline-block;
+}
+
+ul.about li
+{
+    display:inline-block;
+    border:1px solid #000;
+    cursor:pointer;
+    padding:3px;
+    margin: 0 5px 0 5px;
+    transition:all 1s;
+}
+
+ul.about li:hover, ul.about li.active {
+    background:#000;
+    color:#fff;
+}
+
+header img, header nav {
+    display:inline-block;
+}
+
+header nav {
+    font-size:24px;
+    text-align:right;
+    width:80%;
+    line-height:200px;
+}
+header {
+    display:block;
+    width:100%;
+}
+
+footer {
+    background:#000;
+    color:#fff;
+    font-size:20px;
+    padding:10px;
+}
+
+footer div{
+    display:inline-block;   
+}
+
+footer nav {
+    float:right;
+}
+
+footer nav a {
+    color:#fff;
+}
