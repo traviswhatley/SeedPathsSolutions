@@ -81,7 +81,7 @@ ul.about li
     margin: 0 5px 0 5px;
     transition:all 1s;
 }
-
+ 
 ul.about li:hover, ul.about li.active {
     background:#000;
     color:#fff;
