@@ -5,26 +5,23 @@
 <h2>About</h2>
 
 <ul class="about">
-    @*setting the data-url to go to the who view on
-    on the about controller.  *@
-    <li class="active" data-url="@Url.Action("Who", "About")">
+    <li>
         Who?
     </li>
-    <li data-url="@Url.Action("What", "About")">
+    <li>
         What?
     </li>
-    <li data-url="@Url.Action("Where", "About")">
+    <li>
         Where?
     </li>
-    <li data-url="@Url.Action("Why", "About")">
+    <li>
         Why?
     </li>
-    <li data-url="@Url.Action("How", "About")">
+    <li>
         How?
     </li>
 </ul>
 
-@*Tab content area*@
-<div id="tabContent">
+<div>
     @Html.Partial("who")
 </div>
