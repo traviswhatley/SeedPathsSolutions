@@ -9,8 +9,10 @@
 </head>
 <body>
     <header>
-        <img src="http://cdn-img.easylogo.cn/gif/51/51700.gif" />
-        <nav>
+        <div >
+            <img src="http://cdn-img.easylogo.cn/gif/51/51700.gif" />
+        </div>
+        <nav >
             <ul>
                 <li><a href="@Url.Action("Index", "Home")">Home</a></li>
                 <li><a href="@Url.Action("Index", "About")">About</a></li>
@@ -18,6 +20,7 @@
             </ul>
         </nav>
     </header>
+    <br class="clear" />
     @RenderBody() 
     <footer>
         <div>
