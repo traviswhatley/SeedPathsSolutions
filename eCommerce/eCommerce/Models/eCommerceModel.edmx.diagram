@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="dc055836786e400d82bb1668bbeb513b" Name="Diagram1" ZoomLevel="156">
+        <EntityTypeShape EntityType="eCommerceModel.Image" Width="1.5" PointX="5.25" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="eCommerceModel.Product" Width="1.5" PointX="3" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="eCommerceModel.Review" Width="1.5" PointX="5.25" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="eCommerceModel.Supplier" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <AssociationConnector Association="eCommerceModel.FK_Images_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="eCommerceModel.FK_Products_Suppliers" ManuallyRouted="false" />
+        <AssociationConnector Association="eCommerceModel.FK_Reviews_Products" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="eCommerceModel.Category" Width="1.5" PointX="0.75" PointY="0.75" />
+        <AssociationConnector Association="eCommerceModel.FK_Categories_Categories" />
+        <AssociationConnector Association="eCommerceModel.FK_Products_Categories" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
