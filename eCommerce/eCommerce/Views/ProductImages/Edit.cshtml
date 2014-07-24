@@ -1,0 +1,54 @@
+﻿@model eCommerce.Models.Image
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Image</legend>
+
+        @Html.HiddenFor(model => model.ImageID)
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.ProductID, "Product")
+        </div>
+        <div class="editor-field">
+            @Html.DropDownList("ProductID", String.Empty)
+            @Html.ValidationMessageFor(model => model.ProductID)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.ImageURL)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.ImageURL)
+            @Html.ValidationMessageFor(model => model.ImageURL)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Description)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Description)
+            @Html.ValidationMessageFor(model => model.Description)
+        </div>
+
+        <p>
+            <input type="submit" value="Save" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
