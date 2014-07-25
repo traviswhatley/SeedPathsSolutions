@@ -754,3 +754,13 @@ tr.pager td {
             margin: 0;
         }
 }
+
+.product
+{
+    display:inline-block;
+}
+
+.product img
+{
+    max-width:300px;
+}

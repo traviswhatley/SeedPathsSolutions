@@ -51,12 +51,12 @@ namespace PokerHands_Class
             //Grouping cards by rank.  The Rank is then stored in the Key value.
             // Then ordering the cards by descending order by the number of
             // occurences of each rank
-            var tmp = this.Cards.GroupBy(x => x.Rank);
+            IEnumerable<IGrouping<int, Card>> groupedListOfRank = this.Cards.GroupBy(x => x.Rank);
 
             //filter the tmp list to find a group where there are three
             // instences of a single value.  The .Any() returns a boolean 
             // value on if there is a value in the filtered list.
-            return tmp.Where(x => x.Count() == 3).Any();
+            return groupedListOfRank.Where(x => x.Count() == 3).Any();
         }
     }
 }
