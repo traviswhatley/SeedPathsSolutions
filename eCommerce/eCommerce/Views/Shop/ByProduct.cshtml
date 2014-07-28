@@ -1,0 +1,52 @@
+﻿@model eCommerce.Models.Product
+
+@{
+    ViewBag.Title = Model.Name;
+}
+
+<div class="product-right">
+    @if (Model.Images.Any())
+    {
+        <div class="product-image-main">
+                <img src="@Model.Images.First().ImageURL" />
+        </div>
+    }
+    <div class="product-thumbnails">
+        @foreach (var img in Model.Images)
+        {
+            <img src="@img.ImageURL" />
+        }
+    </div>
+    <div class="product-add">
+        @using (Html.BeginForm("AddToCart", "Cart", FormMethod.Post))
+        {
+            <fieldset>
+                <legend>Add to Cart</legend>
+                <br />
+                <span class="price-was">Was <span>@Model.ListPrice.ToString("c")</span></span>
+                <br />
+                <span class="price-now">Now <span>@Model.UnitPrice.ToString("c")</span></span>
+                <br />
+                <span class="price-savings">Savings of @((Model.ListPrice - Model.UnitPrice).ToString("c"))! (@((((Model.ListPrice - Model.UnitPrice) / Model.ListPrice) * 100).ToString("0.00"))%)</span>
+                <br />
+                <label for="Quantity">Qty:</label>
+                <select id="Quantity" name="Quantity">
+                    @for(int i = 1; i < 20; i++) {
+                        <option>@i</option>   
+                    }
+                </select>
+                <br />
+                <input type="submit" value="Add To Cart" />
+            </fieldset>
+        }
+    </div>
+</div>
+
+<div class="product-left">
+    <h2>@Model.Name</h2>
+    <h4>By: @Model.Supplier.Name in @Model.Category.Name</h4>
+    <div>
+        <h4>Description</h4>
+        @Model.Description
+    </div>
+</div>

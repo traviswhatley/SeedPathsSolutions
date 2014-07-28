@@ -1,0 +1,12 @@
+﻿@model eCommerce.Models.Order
+
+<div class="cart">
+    @*Make the whole thing clickable to go to the cart*@
+    <a href="@Url.Action("Index", "Cart")">
+        @*Display the total number of items in the cart by summing the quantity of all items
+        in the cart*@
+        <div class="cart-number">@Model.OrderLines.Sum(x=> x.Quantity)</div>
+        @*Display the total of the cart, (sum of qty times price for each item)*@
+        <div class="cart-price">@Model.OrderLines.Sum(x=> x.Quantity * x.UnitPrice).ToString("c")</div>
+    </a>
+</div>

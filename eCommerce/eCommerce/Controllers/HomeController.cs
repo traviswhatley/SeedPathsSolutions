@@ -3,16 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Web.Security;
 
 namespace eCommerce.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : BaseController
     {
-        //db connection
-        Models.eCommerceEntities db = new Models.eCommerceEntities();
-
+        
         public ActionResult Index()
         {
+            MyOrder.Total = 12;
             //display all products on the landing page
             return View(db.Products.OrderByDescending(x => x.UnitPrice));
         }
@@ -31,6 +31,5 @@ namespace eCommerce.Controllers
             return View();
         }
 
-       
     }
 }

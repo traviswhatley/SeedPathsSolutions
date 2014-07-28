@@ -30,5 +30,9 @@ namespace eCommerce.Models
         public DbSet<Review> Reviews { get; set; }
         public DbSet<Supplier> Suppliers { get; set; }
         public DbSet<Category> Categories { get; set; }
+        public DbSet<Address> Addresses { get; set; }
+        public DbSet<OrderLine> OrderLines { get; set; }
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<Payment> Payments { get; set; }
     }
 }

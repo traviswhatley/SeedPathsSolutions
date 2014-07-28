@@ -15,7 +15,7 @@ namespace eCommerce.Controllers
 {
     [Authorize]
     [InitializeSimpleMembership]
-    public class AccountController : Controller
+    public class AccountController : BaseController
     {
         //
         // GET: /Account/Login
@@ -403,5 +403,18 @@ namespace eCommerce.Controllers
             }
         }
         #endregion
+
+        //[AllowAnonymous]
+        //public ActionResult temp()
+        //{
+        //    //create a new admin account
+        //    WebSecurity.CreateUserAndAccount("admin", "admin1");
+        //    //create a new role called admin
+        //    Roles.CreateRole("admin");
+        //    //add the user to the admin role
+        //    Roles.AddUserToRole("admin", "admin");
+        //    //return some content
+        //    return Content("OK");
+        //}
     }
 }

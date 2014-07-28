@@ -20,6 +20,7 @@
 @foreach (var product in Model)
 {
     <div class="product">
+        <a href="@Url.Action("ByProduct", "Shop", new {id=product.ProductID})">
         <div>
             @*show the first product image, if it has one*@
             @if (product.Images.Any()) {
@@ -27,12 +28,13 @@
             }
         </div>
         <div>
-            <a href="@Url.Action("ByProduct", "Shop", new {id=product.ProductID})">
+            
                 @product.Name
-            </a>
+            
             <br />
             Was @product.ListPrice.ToString("c") NOW @product.UnitPrice.ToString("c")<br />
             A savings of @((product.ListPrice - product.UnitPrice).ToString("c"))
         </div>
+            </a>
     </div>
 }

@@ -18,12 +18,47 @@
                     <section id="login">
                         @Html.Partial("_LoginPartial")
                     </section>
+                    
+                    @*Display the user's cart*@
+                    @Html.Action("MiniCart", "Cart")
+                    
                     <nav>
                         <ul id="menu">
                             <li>@Html.ActionLink("Home", "Index", "Home")</li>
                             <li>@Html.ActionLink("About", "About", "Home")</li>
                             <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
                         </ul>
+                        @*if the user is logged and an admin, show links to the admin sections*@
+                        @if (Request.IsAuthenticated && User.IsInRole("admin"))
+                        {
+                            <ul id="menu">
+                                <li>
+                                    <a href="@Url.Action("Index", "Products")">
+                                        Products
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="@Url.Action("Index", "ProductImages")">
+                                        Images
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="@Url.Action("Index", "Reviews")">
+                                        Reviews
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="@Url.Action("Index", "Suppliers")">
+                                        Suppliers
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="@Url.Action("Index", "Categories")">
+                                        Categories
+                                    </a>
+                                </li>
+                            </ul>
+                        }
                     </nav>
                 </div>
             </div>

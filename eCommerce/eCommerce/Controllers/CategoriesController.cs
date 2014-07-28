@@ -9,7 +9,9 @@ using eCommerce.Models;
 
 namespace eCommerce.Controllers
 {
-    public class CategoriesController : Controller
+    //Limit access only to admin users
+    [Authorize(Roles="admin")]
+    public class CategoriesController : BaseController
     {
         private eCommerceEntities db = new eCommerceEntities();
 
