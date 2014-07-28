@@ -20,8 +20,10 @@
                     </section>
                     
                     @*Display the user's cart*@
-                    @Html.Action("MiniCart", "Cart")
-                    
+                    <div class="miniCart">
+                        @Html.Action("MiniCart", "Cart")
+                    </div>
+
                     <nav>
                         <ul id="menu">
                             <li>@Html.ActionLink("Home", "Index", "Home")</li>
@@ -79,5 +81,7 @@
 
         @Scripts.Render("~/bundles/jquery")
         @RenderSection("scripts", required: false)
+        @*Import the main.js script *@
+        <script src="/Scripts/Main.js"></script>
     </body>
 </html>

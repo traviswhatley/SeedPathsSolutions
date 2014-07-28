@@ -788,8 +788,14 @@ tr.pager td {
     float:right;
 }
 
+.product-image-main {
+    width:350px;
+    text-align:center;
+}
+
 .product-image-main img {
     max-width:350px;
+    max-height:200px;
 }
 
 .product-thumbnails img {
@@ -801,6 +807,10 @@ tr.pager td {
 .product-thumbnails img:hover{
     opacity:.8;
     cursor:pointer;
+}
+
+.product-thumbnails img.active {
+    border:1px solid #000;
 }
 
 

@@ -18,27 +18,35 @@
         }
     </div>
     <div class="product-add">
-        @using (Html.BeginForm("AddToCart", "Cart", FormMethod.Post))
+        <span class="price-was">Was <span>@Model.ListPrice.ToString("c")</span></span>
+        <br />
+        <span class="price-now">Now <span>@Model.UnitPrice.ToString("c")</span></span>
+        <br />
+        <span class="price-savings">Savings of @((Model.ListPrice - Model.UnitPrice).ToString("c"))! (@((((Model.ListPrice - Model.UnitPrice) / Model.ListPrice) * 100).ToString("0.00"))%)</span>
+        <br />
+
+        @*opens the form*@
+        @using (Html.BeginForm("Add", "Cart", FormMethod.Post)) 
         {
-            <fieldset>
-                <legend>Add to Cart</legend>
-                <br />
-                <span class="price-was">Was <span>@Model.ListPrice.ToString("c")</span></span>
-                <br />
-                <span class="price-now">Now <span>@Model.UnitPrice.ToString("c")</span></span>
-                <br />
-                <span class="price-savings">Savings of @((Model.ListPrice - Model.UnitPrice).ToString("c"))! (@((((Model.ListPrice - Model.UnitPrice) / Model.ListPrice) * 100).ToString("0.00"))%)</span>
-                <br />
-                <label for="Quantity">Qty:</label>
-                <select id="Quantity" name="Quantity">
-                    @for(int i = 1; i < 20; i++) {
-                        <option>@i</option>   
-                    }
-                </select>
-                <br />
-                <input type="submit" value="Add To Cart" />
-            </fieldset>
+            <label for="Quantity">Qty:</label>
+            @*creating a dropdown box for the quantity*@
+            <select id="Quantity" name="Quantity">
+                @*values within a dropdown are called
+                options*@
+                @for (int i = 1; i <= 20; i++)
+                {
+                    <option>@i</option>
+                }
+            </select>
+            <br />  
+            <input type="submit" value="Add To Cart" />
+            
+            //passing needed information using fields
+            @Html.Hidden("ProductID", Model.ProductID)
+            @Html.Hidden("UnitPrice", Model.UnitPrice)
+            
         }
+        @*closes the form*@
     </div>
 </div>
 
