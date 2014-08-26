@@ -12,7 +12,6 @@ namespace eCommerce.Controllers
         
         public ActionResult Index()
         {
-            MyOrder.Total = 12;
             //display all products on the landing page
             return View(db.Products.OrderByDescending(x => x.UnitPrice));
         }
@@ -29,6 +28,13 @@ namespace eCommerce.Controllers
             ViewBag.Message = "Your contact page.";
 
             return View();
+        }
+
+        //GET: /Home/Navigation
+        public ActionResult Navigation()
+        {
+            //return a partial view for our root (parentless) categories
+            return PartialView(db.Categories.Where(x => x.ParentID == null));
         }
 
     }

@@ -1,0 +1,18 @@
+﻿@model eCommerce.Models.Order
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Your Cart</h2>
+
+@foreach (var item in Model.OrderLines)
+{
+    <div>
+        @item.Product.Name<br />
+        <a href="@Url.Action("Delete", "Cart", new {id = item.ProductID})">Delete</a>
+    </div>
+}   
+@if (Model.OrderLines.Any()) {
+<a href="@Url.Action("ShippingAddress", "Checkout")">Checkout!</a>
+}

@@ -4,3 +4,6 @@ C:\Users\Admin\Documents\GitHub\citizenkraft\Day2Console\Day2Console\bin\Debug\D
 C:\Users\Admin\Documents\GitHub\citizenkraft\Day2Console\Day2Console\obj\Debug\Day2Console.csprojResolveAssemblyReference.cache
 C:\Users\Admin\Documents\GitHub\citizenkraft\Day2Console\Day2Console\obj\Debug\Day2Console.exe
 C:\Users\Admin\Documents\GitHub\citizenkraft\Day2Console\Day2Console\obj\Debug\Day2Console.pdb
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\Day2Console\Day2Console\bin\Debug\Day2Console.exe.config
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\Day2Console\Day2Console\obj\Debug\Day2Console.exe
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\Day2Console\Day2Console\obj\Debug\Day2Console.pdb

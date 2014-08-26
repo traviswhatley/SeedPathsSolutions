@@ -1,0 +1,25 @@
+﻿@model eCommerce.Models.Product
+
+ <div class="product">
+        <a href="@Url.Action("ByProduct", "Shop", new {id=Model.ProductID})">
+        <div>
+            @*show the first product image, if it has one*@
+            @if (Model.Images.Any())
+            {
+                <img src="@Model.Images.First().ImageURL" />
+            }
+        </div>
+        <div>
+            
+                @Model.Name
+            
+            <br />
+            <span class="price-was">Was <span>@Model.ListPrice.ToString("c")</span></span>
+        <br />
+        <span class="price-now">Now <span>@Model.UnitPrice.ToString("c")</span></span>
+        <br />
+        <span class="price-savings">Savings of @((Model.ListPrice - Model.UnitPrice).ToString("c"))! (@((((Model.ListPrice - Model.UnitPrice) / Model.ListPrice) * 100).ToString("0.00"))%)</span>
+        <br />
+        </div>
+            </a>
+    </div>

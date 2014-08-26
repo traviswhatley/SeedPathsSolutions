@@ -12,6 +12,9 @@ namespace eCommerce.Models
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
+    using System.Data.Objects;
+    using System.Data.Objects.DataClasses;
+    using System.Linq;
     
     public partial class eCommerceEntities : DbContext
     {
@@ -34,5 +37,41 @@ namespace eCommerce.Models
         public DbSet<OrderLine> OrderLines { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<Payment> Payments { get; set; }
+    
+        public virtual ObjectResult<Product> SearchProductsByName(string search)
+        {
+            var searchParameter = search != null ?
+                new ObjectParameter("search", search) :
+                new ObjectParameter("search", typeof(string));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<Product>("SearchProductsByName", searchParameter);
+        }
+    
+        public virtual ObjectResult<Product> SearchProductsByName(string search, MergeOption mergeOption)
+        {
+            var searchParameter = search != null ?
+                new ObjectParameter("search", search) :
+                new ObjectParameter("search", typeof(string));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<Product>("SearchProductsByName", mergeOption, searchParameter);
+        }
+    
+        public virtual ObjectResult<Product> GetAllProductsByCategoryID(Nullable<int> categoryId)
+        {
+            var categoryIdParameter = categoryId.HasValue ?
+                new ObjectParameter("CategoryId", categoryId) :
+                new ObjectParameter("CategoryId", typeof(int));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<Product>("GetAllProductsByCategoryID", categoryIdParameter);
+        }
+    
+        public virtual ObjectResult<Product> GetAllProductsByCategoryID(Nullable<int> categoryId, MergeOption mergeOption)
+        {
+            var categoryIdParameter = categoryId.HasValue ?
+                new ObjectParameter("CategoryId", categoryId) :
+                new ObjectParameter("CategoryId", typeof(int));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<Product>("GetAllProductsByCategoryID", mergeOption, categoryIdParameter);
+        }
     }
 }

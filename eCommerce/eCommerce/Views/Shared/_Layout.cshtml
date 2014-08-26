@@ -24,15 +24,18 @@
                         @Html.Action("MiniCart", "Cart")
                     </div>
 
-                    <nav>
-                        <ul id="menu">
-                            <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                            <li>@Html.ActionLink("About", "About", "Home")</li>
-                            <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                        </ul>
+                    <div class="search">
+                        @using (Html.BeginForm("Search", "Shop"))
+                        {
+                            <input type="text" name="search" placeholder="Search Items..." /><input type="submit" value="GO" />
+                        }
+                    </div>
+
+
                         @*if the user is logged and an admin, show links to the admin sections*@
                         @if (Request.IsAuthenticated && User.IsInRole("admin"))
                         {
+                            <nav>
                             <ul id="menu">
                                 <li>
                                     <a href="@Url.Action("Index", "Products")">
@@ -60,11 +63,18 @@
                                     </a>
                                 </li>
                             </ul>
+                                </nav>
                         }
-                    </nav>
                 </div>
+                <br style="clear:both" />
+                 <nav id="cssmenu">
+                        @*Make a call to display navigation*@
+                        @Html.Action("Navigation", "Home")
+
+                 </nav>
             </div>
         </header>
+        
         <div id="body">
             @RenderSection("featured", required: false)
             <section class="content-wrapper main-content clear-fix">

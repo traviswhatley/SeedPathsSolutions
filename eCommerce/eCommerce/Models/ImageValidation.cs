@@ -14,4 +14,12 @@ namespace eCommerce.Models
         public string ImageURL {get;set;}
 
     }
+
+
+    public class Checkout
+    {
+        public Address Shipping { get; set; }
+        public Address Billing { get; set; }
+        public Payment Payment { get; set; }
+    }
 }

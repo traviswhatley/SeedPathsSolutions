@@ -13,7 +13,7 @@ namespace eCommerce.Controllers
 
         public ActionResult Index()
         {
-            return View();
+            return View(this.MyOrder);
         }
 
         //Get /Cart/MiniCart
@@ -45,6 +45,20 @@ namespace eCommerce.Controllers
             db.SaveChanges();
             //return the MiniCart View
             return RedirectToAction("MiniCart", "Cart");
+        }
+        
+        //GET: /Cart/Delete/{id}
+        [HttpGet]
+        public ActionResult Delete(int id)
+        {
+            //get the orderline to delete.
+            var toDelete = this.MyOrder.OrderLines.Where(x => x.ProductID == id).First();
+            //delete the order line.
+            db.OrderLines.Remove(toDelete);
+            //save changes.
+            db.SaveChanges();
+            //kick the user back to the cart page.
+            return RedirectToAction("Index", "cart");
         }
 
     }

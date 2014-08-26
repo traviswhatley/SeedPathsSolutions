@@ -109,5 +109,7 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="SearchProductsByName" FunctionName="eCommerceModel.Store.SearchProductsByName" />
+    <FunctionImportMapping FunctionImportName="GetAllProductsByCategoryID" FunctionName="eCommerceModel.Store.GetAllProductsByCategoryID" />
   </EntityContainerMapping>
 </Mapping>

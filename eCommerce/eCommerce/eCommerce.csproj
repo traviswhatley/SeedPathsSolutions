@@ -187,6 +187,7 @@
     <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\CartController.cs" />
     <Compile Include="Controllers\CategoriesController.cs" />
+    <Compile Include="Controllers\CheckoutController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ProductImagesController.cs" />
     <Compile Include="Controllers\ProductsController.cs" />
@@ -220,6 +221,9 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>eCommerceModel.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Models\GetAllProductsByCategoryID_Result.cs">
+      <DependentUpon>eCommerceModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\Image.cs">
       <DependentUpon>eCommerceModel.tt</DependentUpon>
     </Compile>
@@ -237,6 +241,9 @@
       <DependentUpon>eCommerceModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Review.cs">
+      <DependentUpon>eCommerceModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\SearchProductsByName_Result.cs">
       <DependentUpon>eCommerceModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Supplier.cs">
@@ -399,6 +406,16 @@
     <Content Include="Views\ProductImages\Delete.cshtml" />
     <Content Include="Views\Shop\ByProduct.cshtml" />
     <Content Include="Views\Cart\MiniCart.cshtml" />
+    <Content Include="Views\Cart\Index.cshtml" />
+    <Content Include="Views\Shop\Search.cshtml" />
+    <Content Include="Views\Home\Navigation.cshtml" />
+    <Content Include="Views\Shared\ProductListing.cshtml" />
+    <Content Include="Views\Shop\ByCategory.cshtml" />
+    <Content Include="Views\Cart\View1.cshtml" />
+    <Content Include="Views\Checkout\ShippingAddress.cshtml" />
+    <Content Include="Views\Checkout\BillingAddress.cshtml" />
+    <Content Include="Views\Checkout\Payment.cshtml" />
+    <Content Include="Views\Checkout\Review.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

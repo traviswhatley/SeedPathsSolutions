@@ -1,0 +1,12 @@
+﻿@model IEnumerable<eCommerce.Models.Product>
+
+@{
+    ViewBag.Title = ViewBag.CategoryName;
+}
+
+<h2>Viewing @ViewBag.CategoryName Products</h2>
+
+@foreach (var item in Model)
+{
+    @Html.Partial("ProductListing", item)
+}

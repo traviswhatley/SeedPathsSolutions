@@ -50,6 +50,12 @@
       <End Role="Payment" EntitySet="Payments" />
       <End Role="Order" EntitySet="Orders" />
     </AssociationSet>
+    <FunctionImport Name="SearchProductsByName" EntitySet="Products" ReturnType="Collection(eCommerceModel.Product)">
+      <Parameter Name="search" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="GetAllProductsByCategoryID" EntitySet="Products" ReturnType="Collection(eCommerceModel.Product)">
+      <Parameter Name="CategoryId" Mode="In" Type="Int32" />
+    </FunctionImport>
   </EntityContainer>
   <EntityType Name="Image">
     <Key>
@@ -305,4 +311,24 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
+  <ComplexType Name="SearchProductsByName_Result">
+    <Property Type="Int32" Name="ProductID" Nullable="false" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="Description" Nullable="false" MaxLength="Max" />
+    <Property Type="Decimal" Name="UnitPrice" Nullable="false" Precision="19" />
+    <Property Type="Decimal" Name="ListPrice" Nullable="false" Precision="19" />
+    <Property Type="Int32" Name="SupplierID" Nullable="false" />
+    <Property Type="Boolean" Name="InStock" Nullable="false" />
+    <Property Type="Int32" Name="CategoryID" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="GetAllProductsByCategoryID_Result">
+    <Property Type="Int32" Name="ProductID" Nullable="false" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="Description" Nullable="false" MaxLength="Max" />
+    <Property Type="Decimal" Name="UnitPrice" Nullable="false" Precision="19" />
+    <Property Type="Decimal" Name="ListPrice" Nullable="false" Precision="19" />
+    <Property Type="Int32" Name="SupplierID" Nullable="false" />
+    <Property Type="Boolean" Name="InStock" Nullable="false" />
+    <Property Type="Int32" Name="CategoryID" Nullable="false" />
+  </ComplexType>
 </Schema>

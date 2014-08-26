@@ -10,3 +10,6 @@ C:\Users\Admin\Documents\GitHub\SeedPathsSolutionsWeek1\LoopPractice\LoopPractic
 C:\Users\Admin\Documents\GitHub\SeedPathsSolutionsWeek1\LoopPractice\LoopPractice\bin\Debug\LoopPractice.exe
 C:\Users\Admin\Documents\GitHub\SeedPathsSolutionsWeek1\LoopPractice\LoopPractice\bin\Debug\LoopPractice.pdb
 C:\Users\Admin\Documents\GitHub\SeedPathsSolutionsWeek1\LoopPractice\LoopPractice\obj\Debug\LoopPractice.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\LoopPractice\LoopPractice\bin\Debug\LoopPractice.exe.config
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\LoopPractice\LoopPractice\obj\Debug\LoopPractice.exe
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\LoopPractice\LoopPractice\obj\Debug\LoopPractice.pdb

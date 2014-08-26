@@ -19,22 +19,5 @@
 <h3>We suggest the following:</h3>
 @foreach (var product in Model)
 {
-    <div class="product">
-        <a href="@Url.Action("ByProduct", "Shop", new {id=product.ProductID})">
-        <div>
-            @*show the first product image, if it has one*@
-            @if (product.Images.Any()) {
-                <img src="@product.Images.First().ImageURL" />
-            }
-        </div>
-        <div>
-            
-                @product.Name
-            
-            <br />
-            Was @product.ListPrice.ToString("c") NOW @product.UnitPrice.ToString("c")<br />
-            A savings of @((product.ListPrice - product.UnitPrice).ToString("c"))
-        </div>
-            </a>
-    </div>
+   @Html.Partial("ProductListing", product)
 }
