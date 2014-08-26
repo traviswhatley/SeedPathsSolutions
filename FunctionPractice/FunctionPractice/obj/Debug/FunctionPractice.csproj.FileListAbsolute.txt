@@ -1,0 +1,6 @@
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutionsWeek1\FunctionPractice\FunctionPractice\bin\Debug\FunctionPractice.exe.config
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutionsWeek1\FunctionPractice\FunctionPractice\bin\Debug\FunctionPractice.exe
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutionsWeek1\FunctionPractice\FunctionPractice\bin\Debug\FunctionPractice.pdb
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutionsWeek1\FunctionPractice\FunctionPractice\obj\Debug\FunctionPractice.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutionsWeek1\FunctionPractice\FunctionPractice\obj\Debug\FunctionPractice.exe
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutionsWeek1\FunctionPractice\FunctionPractice\obj\Debug\FunctionPractice.pdb
