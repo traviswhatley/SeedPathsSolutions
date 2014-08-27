@@ -1,0 +1,6 @@
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\FizzBuzz\FizzBuzz\bin\Debug\FizzBuzz.exe.config
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\FizzBuzz\FizzBuzz\bin\Debug\FizzBuzz.exe
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\FizzBuzz\FizzBuzz\bin\Debug\FizzBuzz.pdb
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\FizzBuzz\FizzBuzz\obj\Debug\FizzBuzz.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\FizzBuzz\FizzBuzz\obj\Debug\FizzBuzz.exe
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\FizzBuzz\FizzBuzz\obj\Debug\FizzBuzz.pdb
