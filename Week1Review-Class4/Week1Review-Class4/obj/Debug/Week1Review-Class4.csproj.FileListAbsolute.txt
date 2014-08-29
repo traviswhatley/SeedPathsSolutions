@@ -1,0 +1,6 @@
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\Week1Review-Class4\Week1Review-Class4\bin\Debug\Week1Review-Class4.exe.config
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\Week1Review-Class4\Week1Review-Class4\bin\Debug\Week1Review-Class4.exe
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\Week1Review-Class4\Week1Review-Class4\bin\Debug\Week1Review-Class4.pdb
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\Week1Review-Class4\Week1Review-Class4\obj\Debug\Week1Review-Class4.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\Week1Review-Class4\Week1Review-Class4\obj\Debug\Week1Review-Class4.exe
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\Week1Review-Class4\Week1Review-Class4\obj\Debug\Week1Review-Class4.pdb

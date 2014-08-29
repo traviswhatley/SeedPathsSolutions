@@ -15,32 +15,38 @@ namespace BattleShip
             DoAI();
 
 
-            //var grid = new Grid();
+            var grid = new Grid();
 
-            //while (!grid.AllShipsDestroyed)
-            //{
-            //    grid.DisplayGrid(true);
-            //    string x; string y;
-            //    do
-            //    {
-            //        Console.WriteLine("Enter coordinates (x, y):");
-            //        Console.Write("(");
-            //        x = Console.ReadKey().KeyChar.ToString();
-            //        Console.Write(", ");
-            //        y = Console.ReadKey().KeyChar.ToString();
-            //        Console.Write(")");
-            //        Console.WriteLine();
-            //    } while (!("0123456789".Contains(x) && "0123456789".Contains(y)));
-                
-            //    grid.Target(int.Parse(x), int.Parse(y));
-            //}
+            while (!grid.AllShipsDestroyed)
+            {
+                grid.DisplayGrid(true);
+                string x; string y;
+                do
+                {
+                    Console.WriteLine("Enter coordinates (x, y):");
+                    Console.Write("(");
+                    x = Console.ReadKey().KeyChar.ToString();
+                    Console.Write(", ");
+                    y = Console.ReadKey().KeyChar.ToString();
+                    Console.Write(")");
+                    Console.WriteLine();
+                } while (!("0123456789".Contains(x) && "0123456789".Contains(y)));
 
-            //grid.DisplayGrid();
-            //Console.WriteLine();
-            //Console.WriteLine("YOU WON!!!!!!!!!! YEAH!");
-            //Console.WriteLine();
+                int aNumber = 0;
+                if (!int.TryParse(Console.ReadLine(), out aNumber))
+                {
 
-            //Console.ReadKey();
+                }
+
+                grid.Target(int.Parse(x), int.Parse(y));
+            }
+
+            grid.DisplayGrid();
+            Console.WriteLine();
+            Console.WriteLine("YOU WON!!!!!!!!!! YEAH!");
+            Console.WriteLine();
+
+            Console.ReadKey();
         }
 
         static void DoAI()
