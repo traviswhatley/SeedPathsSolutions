@@ -1,0 +1,6 @@
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\Disemvoweler-Class4\Disemvoweler-Class4\bin\Debug\Disemvoweler-Class4.exe.config
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\Disemvoweler-Class4\Disemvoweler-Class4\bin\Debug\Disemvoweler-Class4.exe
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\Disemvoweler-Class4\Disemvoweler-Class4\bin\Debug\Disemvoweler-Class4.pdb
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\Disemvoweler-Class4\Disemvoweler-Class4\obj\Debug\Disemvoweler-Class4.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\Disemvoweler-Class4\Disemvoweler-Class4\obj\Debug\Disemvoweler-Class4.exe
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\Disemvoweler-Class4\Disemvoweler-Class4\obj\Debug\Disemvoweler-Class4.pdb
