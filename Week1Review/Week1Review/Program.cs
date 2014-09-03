@@ -50,7 +50,7 @@ namespace Week1Review
             aFunction();
             Console.WriteLine(loopCount);
 
- 
+
             //Keep the console open
             Console.ReadKey();
         }
@@ -59,8 +59,10 @@ namespace Week1Review
         {
             for (int i = 0; i < 53; i++)
             {
+
                 loopCount = loopCount + 1;
             }
+
         }
     }
 }

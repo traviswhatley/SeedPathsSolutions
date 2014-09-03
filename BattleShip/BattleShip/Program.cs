@@ -31,7 +31,11 @@ namespace BattleShip
                     Console.Write(")");
                     Console.WriteLine();
                 } while (!("0123456789".Contains(x) && "0123456789".Contains(y)));
+               
+                if ("asdfsdf".All(char.IsDigit))
+                {
 
+                }
                 int aNumber = 0;
                 if (!int.TryParse(Console.ReadLine(), out aNumber))
                 {
