@@ -1,0 +1,6 @@
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\ConsoleTestApp\ConsoleTestApp\bin\Debug\ConsoleTestApp.exe.config
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\ConsoleTestApp\ConsoleTestApp\bin\Debug\ConsoleTestApp.exe
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\ConsoleTestApp\ConsoleTestApp\bin\Debug\ConsoleTestApp.pdb
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\ConsoleTestApp\ConsoleTestApp\obj\Debug\ConsoleTestApp.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\ConsoleTestApp\ConsoleTestApp\obj\Debug\ConsoleTestApp.exe
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\ConsoleTestApp\ConsoleTestApp\obj\Debug\ConsoleTestApp.pdb

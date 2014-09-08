@@ -10,6 +10,7 @@ namespace Disemvoweler_Class4
     {
         static void Main(string[] args)
         {
+
             //call our Disemvoweler
             Disemvoweler("Nickleback is Logan's favorite band.  Their songwring cannot be beat!  Dark Horse is his favorite album.");
 
@@ -75,6 +76,7 @@ namespace Disemvoweler_Class4
             Console.WriteLine("Disemvoweled: " + output);
             Console.WriteLine("Vowels: " + vowels);
         }
+
 
     }
 }

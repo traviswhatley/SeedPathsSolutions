@@ -1,0 +1,6 @@
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\LambdaExpressions-Class4\LambdaExpressions-Class4\bin\Debug\LambdaExpressions-Class4.exe.config
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\LambdaExpressions-Class4\LambdaExpressions-Class4\bin\Debug\LambdaExpressions-Class4.exe
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\LambdaExpressions-Class4\LambdaExpressions-Class4\bin\Debug\LambdaExpressions-Class4.pdb
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\LambdaExpressions-Class4\LambdaExpressions-Class4\obj\Debug\LambdaExpressions-Class4.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\LambdaExpressions-Class4\LambdaExpressions-Class4\obj\Debug\LambdaExpressions-Class4.exe
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\LambdaExpressions-Class4\LambdaExpressions-Class4\obj\Debug\LambdaExpressions-Class4.pdb
