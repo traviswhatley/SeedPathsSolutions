@@ -16,25 +16,23 @@ namespace TextStatsLambda
 
         static void TextStats(string input)
         {
-            //standardize our input
+            Console.WriteLine("Input: {0}", input);
+            //standarize my input
             input = input.ToLower();
-            //# of letters
-            Console.WriteLine("# of letters: " + input.Length);
-            //# of vowels
-            Console.WriteLine("# of vowels: " + input.Where(x => "aeiou".Contains(x)).Count());
-            //# of special chars
-            Console.WriteLine("# of spec chars: " + input.Where(x => " .,?".Contains(x)).Count()); 
-            //# of consonants
-            Console.WriteLine("# of consonants: " + input.Where(x => !"aeiou .,?".Contains(x)).Count()); 
-
-            //# of words
-            Console.WriteLine("# of words: " + input.Split(' ').Count());
-            //longest word
-            Console.WriteLine("Longest word: " + input.Replace(".", "").Split(' ').OrderByDescending(x => x.Length).First());
-            //second longest word
-            Console.WriteLine("2nd Longest word: " + input.Split(' ').OrderByDescending(x => x.Length).Skip(1).Take(1).First());
-            //shortest word
-            Console.WriteLine("Shortest word: " + input.Split(' ').OrderBy(x=> x.Length).First());
+            //print # of letters
+            Console.WriteLine("# of letters: {0}", input.Length);
+            //print # of words
+            Console.WriteLine("# of words: {0}", input.Split(' ').Count());
+            //print # of vowels
+            Console.WriteLine("# of vowels: {0}", input.Where(x => "aeiou".Contains(x.ToString())).Count());
+            //print # of consonants
+            Console.WriteLine("# of consonants: {0}", input.Count(x => "bcdfghjklmnpqrstvwxyz".Contains(x.ToString())));
+            //print # of special characters
+            Console.WriteLine("# of special characters: {0}", input.Count(x => "?.'\" !@#$%^&*()<>,/".Contains(x.ToString())));
+            //print longest word
+            Console.WriteLine("Longest Word: {0}", input.Split(' ').OrderBy(x => x.Length).Last());
+            //print shortest word
+            Console.WriteLine("Shortest Word: {0}", input.Split(' ').OrderBy(x => x.Length).First());
         }
     }
 }

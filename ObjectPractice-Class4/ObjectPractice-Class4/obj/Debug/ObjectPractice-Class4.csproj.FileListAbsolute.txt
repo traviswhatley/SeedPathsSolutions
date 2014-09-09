@@ -1,0 +1,6 @@
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\ObjectPractice-Class4\ObjectPractice-Class4\bin\Debug\ObjectPractice-Class4.exe.config
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\ObjectPractice-Class4\ObjectPractice-Class4\bin\Debug\ObjectPractice-Class4.exe
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\ObjectPractice-Class4\ObjectPractice-Class4\bin\Debug\ObjectPractice-Class4.pdb
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\ObjectPractice-Class4\ObjectPractice-Class4\obj\Debug\ObjectPractice-Class4.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\ObjectPractice-Class4\ObjectPractice-Class4\obj\Debug\ObjectPractice-Class4.exe
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\ObjectPractice-Class4\ObjectPractice-Class4\obj\Debug\ObjectPractice-Class4.pdb
