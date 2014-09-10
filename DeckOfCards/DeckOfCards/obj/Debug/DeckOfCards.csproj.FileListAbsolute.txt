@@ -1,0 +1,6 @@
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\DeckOfCards\DeckOfCards\bin\Debug\DeckOfCards.exe.config
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\DeckOfCards\DeckOfCards\bin\Debug\DeckOfCards.exe
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\DeckOfCards\DeckOfCards\bin\Debug\DeckOfCards.pdb
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\DeckOfCards\DeckOfCards\obj\Debug\DeckOfCards.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\DeckOfCards\DeckOfCards\obj\Debug\DeckOfCards.exe
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\DeckOfCards\DeckOfCards\obj\Debug\DeckOfCards.pdb
