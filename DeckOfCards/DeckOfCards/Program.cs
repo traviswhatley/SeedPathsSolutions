@@ -15,7 +15,11 @@ namespace DeckOfCards
             deck.Shuffle();
             Console.WriteLine("\nSHUFFLED\n");
             deck.PrintDeck();
+            var draw5 = deck.Deal(5);
+
             Console.ReadKey();
+
+            
         }
     }
 }

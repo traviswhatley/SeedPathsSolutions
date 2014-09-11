@@ -54,6 +54,19 @@ namespace DeckOfCards
             this.Cards = shuffled;
         }
 
+        public List<Card> Deal(int numCards)
+        {
+            List<Card> cardsToDeal = new List<Card>();
+            for (int i = 0; i < numCards; i++)
+            {
+                Card drawn = this.Cards.Last();
+                cardsToDeal.Add(drawn); // add to the card to the return list
+                this.DealtCards.Add(drawn); // add card to the cards drawn deck
+                this.Cards.Remove(drawn); // remove card from the undrawn deck
+            }
+            return cardsToDeal;
+        }
+
         public void PrintDeck()
         {
             Console.WriteLine(string.Join("\n", this.Cards.Select(x => x.GetCardString())));
