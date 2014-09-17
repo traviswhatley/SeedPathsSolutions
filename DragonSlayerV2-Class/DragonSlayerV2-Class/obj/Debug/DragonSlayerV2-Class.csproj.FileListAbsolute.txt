@@ -1,0 +1,6 @@
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\DragonSlayerV2-Class\DragonSlayerV2-Class\bin\Debug\DragonSlayerV2-Class.exe.config
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\DragonSlayerV2-Class\DragonSlayerV2-Class\bin\Debug\DragonSlayerV2-Class.exe
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\DragonSlayerV2-Class\DragonSlayerV2-Class\bin\Debug\DragonSlayerV2-Class.pdb
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\DragonSlayerV2-Class\DragonSlayerV2-Class\obj\Debug\DragonSlayerV2-Class.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\DragonSlayerV2-Class\DragonSlayerV2-Class\obj\Debug\DragonSlayerV2-Class.exe
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\DragonSlayerV2-Class\DragonSlayerV2-Class\obj\Debug\DragonSlayerV2-Class.pdb

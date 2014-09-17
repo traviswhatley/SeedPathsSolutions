@@ -44,7 +44,7 @@ namespace DeckOfCards
             while (this.Cards.Count > 0)
             {
                 //choose a random card from the unshuffled deck
-                Card card = this.Cards[rng.Next(0, this.Cards.Count - 1)];
+                Card card = this.Cards[rng.Next(0, this.Cards.Count)];
                 //add the card to the shuffled deck
                 shuffled.Add(card);
                 //remove the card from the unshuffled deck
