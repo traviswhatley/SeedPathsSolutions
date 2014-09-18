@@ -1,0 +1,6 @@
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\Battleship-Class\Battleship-Class\bin\Debug\Battleship-Class.exe.config
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\Battleship-Class\Battleship-Class\bin\Debug\Battleship-Class.exe
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\Battleship-Class\Battleship-Class\bin\Debug\Battleship-Class.pdb
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\Battleship-Class\Battleship-Class\obj\Debug\Battleship-Class.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\Battleship-Class\Battleship-Class\obj\Debug\Battleship-Class.exe
+C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\Battleship-Class\Battleship-Class\obj\Debug\Battleship-Class.pdb

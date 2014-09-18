@@ -1,6 +1,0 @@
-C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\BattleShip\BattleShip\bin\Debug\BattleShip.exe.config
-C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\BattleShip\BattleShip\bin\Debug\BattleShip.exe
-C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\BattleShip\BattleShip\bin\Debug\BattleShip.pdb
-C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\BattleShip\BattleShip\obj\Debug\BattleShip.csprojResolveAssemblyReference.cache
-C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\BattleShip\BattleShip\obj\Debug\BattleShip.exe
-C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\BattleShip\BattleShip\obj\Debug\BattleShip.pdb
