@@ -11,7 +11,7 @@ namespace Battleship_Class
         static void Main(string[] args)
         {
             Grid grid = new Grid();
-            Console.WriteLine(grid.Ocean[1, 1].Status);
+            grid.PlayGame();
 
         }
     }
