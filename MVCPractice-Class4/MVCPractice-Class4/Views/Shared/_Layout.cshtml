@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <!-- comment -->
+    @*comment*@
+    <header>
+        <h1>My Awesome Site</h1>
+    </header>
+    <nav>
+        <a href="@Url.Action("Index", "Home")">
+            Home
+        </a>
+        &nbsp;|&nbsp;
+        <a href="@Url.Action("About", "Home")">
+            About
+        </a>
+        &nbsp;|&nbsp;
+        <a href="@Url.Action("Index", "HighScores")">
+            Game High Scores
+        </a>
+    </nav>
+    @RenderBody()
+    
+    @Scripts.Render("~/bundles/jquery")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
