@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jQueryPractice", "jQueryPractice\jQueryPractice.csproj", "{FE4C882C-4701-4637-8D66-50C2630D82B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE4C882C-4701-4637-8D66-50C2630D82B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE4C882C-4701-4637-8D66-50C2630D82B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE4C882C-4701-4637-8D66-50C2630D82B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE4C882C-4701-4637-8D66-50C2630D82B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

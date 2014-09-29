@@ -1,0 +1,23 @@
+﻿@model IEnumerable<MVCPractice_Class4.Models.ContactForm>
+
+@{
+    ViewBag.Title = "List of Contact Forms";
+}
+
+<h2>List of Contact Forms</h2>
+
+@foreach (var item in Model)
+{
+    <div>
+        @item.Name - @item.Email <br />
+        <a href="@Url.Action("Details", "Admin", new {id = item.ContactFormID})">
+            Details
+        </a>
+        <a href="@Url.Action("Edit", "Admin", new {id = item.ContactFormID})">
+            Edit
+        </a>
+        <a href="@Url.Action("Delete", "Admin", new {id = item.ContactFormID})">
+            Delete
+        </a>
+    </div>
+}

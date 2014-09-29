@@ -1,0 +1,42 @@
+﻿@model MVCPractice_Class4.Models.ContactForm
+
+@{
+    ViewBag.Title = "Edit Contact Form";
+}
+
+<h2>Edit Contact Form</h2>
+<form action="@Url.Action("Edit", "Admin")" method="post">
+    @*add a hidden field to hold the ContactFormID*@
+    @Html.HiddenFor(x=> x.ContactFormID)
+    
+    <div>
+        @*create a label, then text box, then
+    validation for each property you 
+    want to display*@
+        @Html.LabelFor(x => x.Name)
+        @Html.TextBoxFor(x => x.Name)
+        @Html.ValidationMessageFor(x => x.Name)
+    </div>
+
+    <div>
+        @Html.LabelFor(x => x.Email)
+        @Html.TextBoxFor(x => x.Email)
+        @Html.ValidationMessageFor(x => x.Email)
+    </div>
+
+    <div>
+        @Html.LabelFor(x => x.Message)
+        @Html.TextAreaFor(x => x.Message)
+        @Html.ValidationMessageFor(x => x.Message)
+    </div>
+
+    <input type="submit" value="Submit" />
+</form>
+
+@*Add a reference to jQuery Validation
+    this is the javascript that actually
+    performs our validation using jQuery*@
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+

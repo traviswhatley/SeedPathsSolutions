@@ -1,0 +1,18 @@
+﻿@model MVCPractice_Class4.Models.ContactForm
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+Name: @Model.Name <br />
+Email: @Model.Email <br />
+Message: @Model.Message
+
+@*do this on every section that isn't the list*@
+<p>
+    <a href="@Url.Action("Index", "Admin")">
+        Back to list
+    </a>
+</p>

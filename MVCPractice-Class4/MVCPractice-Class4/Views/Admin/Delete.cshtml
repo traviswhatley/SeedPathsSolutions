@@ -1,0 +1,14 @@
+﻿@model MVCPractice_Class4.Models.ContactForm
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<p>Are you sure you want to delete 
+    @Model.Name's Contact Form?</p>
+
+<form action="@Url.Action("DeleteConfirm", "Admin", new { id = Model.ContactFormID })" method="post">
+    <input type="submit" value="You got that right, buddy" />
+</form>

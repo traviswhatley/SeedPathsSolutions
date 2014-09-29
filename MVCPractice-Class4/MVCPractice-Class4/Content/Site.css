@@ -66,3 +66,8 @@ header {
 nav {
     text-align:center;
 }
+
+label {
+    display:inline-block;
+    width:75px;
+}

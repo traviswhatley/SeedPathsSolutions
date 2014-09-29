@@ -128,11 +128,32 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\AdminController.cs" />
+    <Compile Include="Controllers\ContactController.cs" />
     <Compile Include="Controllers\HighScoresController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\ContactForm.cs">
+      <DependentUpon>ContactForms.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ContactForms.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ContactForms.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ContactForms.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ContactForms.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ContactForms.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ContactForms.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ContactFormValidation.cs" />
     <Compile Include="Models\HighScore.cs">
       <DependentUpon>HighScores.tt</DependentUpon>
     </Compile>
@@ -227,6 +248,23 @@
       <DependentUpon>HighScores.edmx</DependentUpon>
       <LastGenOutput>HighScores.cs</LastGenOutput>
     </Content>
+    <EntityDeploy Include="Models\ContactForms.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>ContactForms.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\ContactForms.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ContactForms.edmx</DependentUpon>
+      <LastGenOutput>ContactForms.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\ContactForms.edmx.diagram">
+      <DependentUpon>ContactForms.edmx</DependentUpon>
+    </Content>
+    <Content Include="Models\ContactForms.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ContactForms.edmx</DependentUpon>
+      <LastGenOutput>ContactForms.cs</LastGenOutput>
+    </Content>
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.8.2.js" />
     <Content Include="Scripts\jquery-1.8.2.min.js" />
@@ -258,6 +296,12 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\HighScores\Index.cshtml" />
     <Content Include="Views\HighScores\GuessThatNumber.cshtml" />
+    <Content Include="Views\Contact\Index.cshtml" />
+    <Content Include="Views\Contact\ThankYou.cshtml" />
+    <Content Include="Views\Admin\Index.cshtml" />
+    <Content Include="Views\Admin\Details.cshtml" />
+    <Content Include="Views\Admin\Edit.cshtml" />
+    <Content Include="Views\Admin\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
