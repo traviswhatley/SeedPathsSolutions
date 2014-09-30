@@ -754,3 +754,25 @@ tr.pager td {
             margin: 0;
         }
 }
+
+/* Tab Styles START */
+.hide {
+    display:none;
+}
+
+.active {
+    display:block;
+}
+
+.tabSelection li {
+    cursor:pointer;
+    text-decoration:underline;
+}
+
+/* Tab Styles END */
+
+/* Carousel Styles START*/
+.carousel-next {
+    cursor:pointer;
+}
+/* Carousel Styles END*/
