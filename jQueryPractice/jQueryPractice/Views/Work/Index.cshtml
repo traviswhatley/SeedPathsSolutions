@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Work</h2>
+
+<div class="container">
+    <div class="work battleship">
+        <a href="@Url.Action("Battleship", "Work")">
+        <img src="/content/battleship1.png" class="carousel battleship active" />
+        <img src="/content/battleship2.png" class="carousel battleship hide" />
+            </a>
+        <div>
+            Battleship<br />
+            <span class="prev" data-carousel="battleship">Prev</span>
+            &nbsp;|&nbsp;
+            <span class="next" data-carousel="battleship">Next</span>
+        </div>
+    </div>
+
+    <div class="work dragon">
+        <a href="@Url.Action("Battleship", "Work")">
+        <img src="/content/becker1.png" class="carousel dragon active" />
+        <img src="/content/becker2.png" class="carousel dragon hide" />
+            </a>
+        <div>
+            BeckerQuest<br />
+            <span class="prev" data-carousel="dragon">Prev</span>
+            &nbsp;|&nbsp;
+            <span class="next" data-carousel="dragon">Next</span>
+        </div>
+    </div>
+
+
+</div>

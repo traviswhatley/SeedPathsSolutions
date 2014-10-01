@@ -775,4 +775,27 @@ tr.pager td {
 .carousel-next {
     cursor:pointer;
 }
+
+.container {
+    margin: 0 10% 0 10%;
+}
+.work {
+    padding-right:15px;
+    display:inline-block;
+}
+.work img {
+    width:350px;
+}
+
+.headerImg {
+    height:400px;
+}
+
+.work-details{
+    text-align:center;
+}
+
+.work-details p, .work-details li {
+    text-align:left;
+}
 /* Carousel Styles END*/

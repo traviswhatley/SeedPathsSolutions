@@ -34,6 +34,7 @@ $(document).ready(function () {
         //get the active slide
         var activeSlide = $('.carousel.active');
         //get the next slide
+        var x = activeSlide.siblings('.active')
         var nextSlide = activeSlide.next();
         //make sure its a carousel slide
         if (!nextSlide.hasClass('carousel')) {
@@ -55,6 +56,26 @@ $(document).ready(function () {
 
     }
 
-    setInterval(carouselNext, 2000);
+    
+    $('span.next').on('click', function () {
+        //get carousel type
+        var carousel = $(this).data('carousel');
+        //get the active slide
+        var activeSlide = $('.' + carousel + '.active');
+        //get the next slide
+        var nextSlide = activeSlide.next();
+        //make sure its a carousel slide
+        if (!nextSlide.hasClass(carousel)) {
+            nextSlide = $('img.' + carousel).first();
+        }
+
+        //remove the active class, add hide class to
+        // the active slide
+        activeSlide.removeClass('active').addClass('hide');
+        //remove the hide class, add the active class
+        // to the next slide
+        nextSlide.removeClass('hide').addClass('active');
+    });
+    
 
 });

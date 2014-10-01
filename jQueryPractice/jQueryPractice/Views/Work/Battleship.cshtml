@@ -1,0 +1,30 @@
+﻿@{
+    ViewBag.Title = "Battleship";
+}
+
+
+<div class="container work-details">
+    <img class="headerImg" src="/content/battleship1.png" />
+    <h2>Battleship</h2>
+
+    <h4>About the Game</h4>
+    <p>
+        This game required me to use a 2 dimentional array to create the grid.  I used three objects in the construction of this game:
+        <ol>
+            <li><strong>Point</strong>: Represents a single point on the grid.  It may have fours statuses, indcidating if it contains a ship, is empty, has been targeted and missed, or if there was a hit</li>
+            <li><strong>Ship</strong>: Represents a single ship on the grid...</li>
+            <li><strong>Grid</strong>: Contains a 2d array of Points, and places ships on the field.. etc. etc etc</li>
+        </ol>
+    </p>
+
+    <h4>
+        Download and play!
+    </h4>
+    <p>
+        You can download the game and run it on your PC <a href="asfd">here</a>.
+    </p>
+
+    <p>
+        <a href="@Url.Action("Index", "work")"><<< Back to My Work</a>
+    </p>
+</div>
