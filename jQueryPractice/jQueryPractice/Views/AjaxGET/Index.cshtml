@@ -6,6 +6,14 @@
 
 <div id="content">
     I'm some text. When you click this 
-    <span class="ajax-get">link</span>, 
-    this text will be replaced
+    <span class="ajax-get" data-url="@Url.Action("cats", "AJAXGet")">
+        link
+    </span>, 
+    this text will be replaced.
+    <br />
+    If you like dogs, I would click
+    <span class="ajax-get" data-url="@Url.Action("dogs", "AJAXGet")">
+        here
+    </span>
+    instead.
 </div>

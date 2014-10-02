@@ -18,8 +18,20 @@ namespace jQueryPractice.Controllers
 
         public ActionResult Cats()
         {
-            //you only want to return a partial view with an
-            // AJAX GET request
+            if (Request.IsAjaxRequest())
+            {
+                //you only want to return a partial view with an
+                // AJAX GET request
+                return PartialView();
+            }
+            else
+            {
+                return View();
+            }
+        }
+
+        public ActionResult Dogs()
+        {
             return PartialView();
         }
 

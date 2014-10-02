@@ -799,3 +799,7 @@ tr.pager td {
     text-align:left;
 }
 /* Carousel Styles END*/
+
+.ajax-get {
+    color:fuchsia;
+}
