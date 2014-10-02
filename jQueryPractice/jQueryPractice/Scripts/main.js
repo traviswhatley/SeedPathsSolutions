@@ -76,6 +76,9 @@ $(document).ready(function () {
         // to the next slide
         nextSlide.removeClass('hide').addClass('active');
     });
+
+    //
     
+
 
 });

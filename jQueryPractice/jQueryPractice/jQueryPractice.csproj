@@ -182,6 +182,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\AjaxGETController.cs" />
     <Compile Include="Controllers\CarouselController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\TabsController.cs" />
@@ -309,6 +310,8 @@
     <Content Include="Views\Carousel\Index.cshtml" />
     <Content Include="Views\Work\Index.cshtml" />
     <Content Include="Views\Work\Battleship.cshtml" />
+    <Content Include="Views\AjaxGET\Index.cshtml" />
+    <Content Include="Views\AjaxGET\Cats.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
