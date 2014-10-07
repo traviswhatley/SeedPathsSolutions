@@ -19,6 +19,7 @@ namespace jQueryPractice.Controllers
         [HttpPost]
         public ActionResult Index(Models.ContactForm cf)
         {
+            if (Request.IsAjaxRequest())
             //TODO: code to send an email
             return PartialView("ThankYou");
         }
