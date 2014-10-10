@@ -1,0 +1,54 @@
+﻿@model IEnumerable<MyBlog_Class4.Models.Post>
+
+@{
+    ViewBag.Title = "My Blog";
+}
+
+@foreach (var post in Model) {
+<section class="post">
+	<div class="postInfo">
+		<img class="thumb" src="@post.Author.ImageUrl" />
+		<span>@post.Title</span><br />
+		<small>By <a href="/author/AuthorName">@post.Author.Name</a> on @post.DateCreated.Value.ToShortDateString()</small>
+	</div>
+	<div class="postContent">
+		
+		<img src="@post.ImageUrl" />
+		
+		@post.Body
+
+	</div>
+	<div>
+		
+		<span class="like" data-postid="@post.PostID">
+			@post.Likes Likes
+		</span> 
+		
+	</div>
+
+	<div class="comments">
+		<span class="showComments">
+		<span>Show</span> @post.Comments.Count() comments
+		</span>
+		
+		<div class="commentsDiv">
+			@foreach (var comment in post.Comments) {
+			     @Html.Partial("Comment", comment)
+            }
+			
+			<form action="@Url.Action("AddComment", "Home")" method="post">
+				<label for="Name">Your Name</label>
+				<input type="text" name="Name" class="commentAuthor" />
+				<br />
+				<label for="Body">Comment</label>
+				<textarea name="Body" class="commentBody"></textarea>
+				<br />
+                @*hidden field to hold the PostID for the comment*@
+                <input type="hidden" name="PostID" value="@post.PostID" />
+
+				<input type="submit" value="Add Comment" />
+			</form>
+		</div>
+    </div>
+</section>
+}
