@@ -7,3 +7,9 @@ C:\Users\Admin\Documents\GitHub\citizenkraft\Day1Console\Day1Console\obj\Debug\D
 C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\Day1Console\Day1Console\bin\Debug\Day1Console.exe.config
 C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\Day1Console\Day1Console\obj\Debug\Day1Console.exe
 C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\Day1Console\Day1Console\obj\Debug\Day1Console.pdb
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions\Day1Console\Day1Console\bin\Debug\Day1Console.exe.config
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions\Day1Console\Day1Console\obj\Debug\Day1Console.exe
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions\Day1Console\Day1Console\obj\Debug\Day1Console.pdb
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions\Day1Console\Day1Console\bin\Debug\Day1Console.exe
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions\Day1Console\Day1Console\bin\Debug\Day1Console.pdb
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions\Day1Console\Day1Console\obj\Debug\Day1Console.csprojResolveAssemblyReference.cache
