@@ -4,3 +4,6 @@ C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\FunWithLists\FunWithLists\bin
 C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\FunWithLists\FunWithLists\obj\Debug\FunWithLists.csprojResolveAssemblyReference.cache
 C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\FunWithLists\FunWithLists\obj\Debug\FunWithLists.exe
 C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\FunWithLists\FunWithLists\obj\Debug\FunWithLists.pdb
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions\FunWithLists\FunWithLists\bin\Debug\FunWithLists.exe.config
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions\FunWithLists\FunWithLists\obj\Debug\FunWithLists.exe
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions\FunWithLists\FunWithLists\obj\Debug\FunWithLists.pdb

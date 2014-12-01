@@ -7,3 +7,6 @@ C:\Users\Admin\Documents\GitHub\citizenkraft\Day2Console\Day2Console\obj\Debug\D
 C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\Day2Console\Day2Console\bin\Debug\Day2Console.exe.config
 C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\Day2Console\Day2Console\obj\Debug\Day2Console.exe
 C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\Day2Console\Day2Console\obj\Debug\Day2Console.pdb
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions\Day2Console\Day2Console\bin\Debug\Day2Console.exe.config
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions\Day2Console\Day2Console\obj\Debug\Day2Console.exe
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions\Day2Console\Day2Console\obj\Debug\Day2Console.pdb

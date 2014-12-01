@@ -63,6 +63,7 @@ Choose Attack:
             //use a switch statement to perform
             // the attack
             int damage; //variable to hold damage dealt
+         
             switch (ChooseAttack())
             {
                 case AttackType.Sword:

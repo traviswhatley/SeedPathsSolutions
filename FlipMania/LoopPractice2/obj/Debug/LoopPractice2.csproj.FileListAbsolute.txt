@@ -4,3 +4,9 @@ C:\Users\Admin\Documents\GitHub\SeedPathsSolutionsWeek1\LoopPractice2\LoopPracti
 C:\Users\Admin\Documents\GitHub\SeedPathsSolutionsWeek1\LoopPractice2\LoopPractice2\obj\Debug\LoopPractice2.csprojResolveAssemblyReference.cache
 C:\Users\Admin\Documents\GitHub\SeedPathsSolutionsWeek1\LoopPractice2\LoopPractice2\obj\Debug\LoopPractice2.exe
 C:\Users\Admin\Documents\GitHub\SeedPathsSolutionsWeek1\LoopPractice2\LoopPractice2\obj\Debug\LoopPractice2.pdb
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions\FlipMania\LoopPractice2\bin\Debug\LoopPractice2.exe.config
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions\FlipMania\LoopPractice2\obj\Debug\LoopPractice2.exe
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions\FlipMania\LoopPractice2\obj\Debug\LoopPractice2.pdb
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions\FlipMania\LoopPractice2\obj\Debug\LoopPractice2.csprojResolveAssemblyReference.cache
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions\FlipMania\LoopPractice2\bin\Debug\LoopPractice2.exe
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions\FlipMania\LoopPractice2\bin\Debug\LoopPractice2.pdb

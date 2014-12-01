@@ -4,3 +4,6 @@ C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\LoopingOverStrings-Class4\Loo
 C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\LoopingOverStrings-Class4\LoopingOverStrings-Class4\obj\Debug\LoopingOverStrings-Class4.csprojResolveAssemblyReference.cache
 C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\LoopingOverStrings-Class4\LoopingOverStrings-Class4\obj\Debug\LoopingOverStrings-Class4.exe
 C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\LoopingOverStrings-Class4\LoopingOverStrings-Class4\obj\Debug\LoopingOverStrings-Class4.pdb
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions\LoopingOverStrings-Class4\LoopingOverStrings-Class4\bin\Debug\LoopingOverStrings-Class4.exe.config
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions\LoopingOverStrings-Class4\LoopingOverStrings-Class4\obj\Debug\LoopingOverStrings-Class4.exe
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions\LoopingOverStrings-Class4\LoopingOverStrings-Class4\obj\Debug\LoopingOverStrings-Class4.pdb

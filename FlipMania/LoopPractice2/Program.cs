@@ -4,103 +4,204 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LoopPractice2
+namespace WeekOnePractice
 {
     class Program
     {
-
         static void Main(string[] args)
         {
-            //call our WhileLoopTest() function
-            //WhileLoopTest();
+            string myName = "Lauren Sweany";
+            int myAge = 27;
+            bool myBool = true;
+            List<string> productsList = new List<string>() { "basketball", "baseball glove", "tennis shoes", "hockey puck" };
 
-            FlipACoin(1000000);
+            Console.WriteLine("My name is " + myName + " and I am a beast of a programer ");
+            Console.WriteLine("I am " + myAge + " years awesome.");
+            Console.WriteLine(" I set my boolean value equal to " + myBool);
 
-            FlipForHeads(41600000);
 
-            //keep the console window open
+            for (int i = 0; i <= 4; i++)
+            {
+                //printing out the product list mentioned above
+                Console.WriteLine(productsList);
+
+            }
+
+            for (int i = 1; i <= 10; i++)
+            {
+                //printing out numbers 1-10
+                Console.WriteLine(i);
+            }
+            for (int i = 10; i >= 1; i = i - 1)
+            {
+                //counting down from 10-1
+                Console.WriteLine(i);
+            }
+
+            for (int i = 10; i <= 30; i = i + 2)
+            {
+                //printing 10-30 even numbers only
+                Console.WriteLine(i);
+            }
+
+            for (int i = 100; i >= 75; i = i - 5)
+            {
+                //printing out the numbers 100-75, printing only the fifth number
+                Console.WriteLine(i);
+            }
+
+            int count = 1;
+            while (count <= 10)
+            {
+                //using a while loop to count from 1 to 10
+
+                count = count + 1;
+                Console.WriteLine(count);
+            }
+
+            count = 10;
+            while (count <= 1)
+            {
+                //using a while loop to count backwards from 10 to 1
+
+                count = count - 1;
+                Console.WriteLine(count);
+            }
+
+            count = 16;
+            while (count <= 30)
+            {
+                //using while loop to count from 15 to 30 only even numbers
+                count = count + 2;
+                Console.WriteLine(count);
+            }
+
+            count = 100;
+            while (count <= 75)
+            {
+                //using while loop to count from 100 to 75 only printing every fifth number
+                count = count - 5;
+                Console.WriteLine(count);
+            }
+
+
+            count = 1;
+            while (myBool)
+            {
+                if (count % 4 == 0)
+                {
+                    myBool = false;
+                }
+                Console.WriteLine(count);
+                count++;
+
+            }
+            Console.WriteLine("My name, " + myName + ", has " + myName.Count() + " in it. ");
+            Console.WriteLine("My product list has " + productsList.Count() + " in it. ");
+
+            for (int i = 0; i < productsList.Count(); i++)
+            {
+                Console.WriteLine(productsList[i] + " has " + productsList[i].Replace(" ", "").Length + " in it. ");
+            }
+            myGreeting(myName);
+
+            myGreeting("Beef Hardchest");
+
+            DoubleIt(1337);
+
+            DoubleIt(27);
+
+            Multiply(2, 8);
+
+            Multiply(3, myAge);
+
+            LoopThis(20, 30);
+
+            LoopThis(0, myAge);
+
+            SuperLoop(0, 100, 15);
+
+            SuperLoop(0, 200, myAge);
+
+            Console.WriteLine(NewGreeting("Neil deGrasse-Tyson"));
+
+            Console.WriteLine(NewGreeting(myName));
+
+            Console.WriteLine(TripleIt(10));
+
+            Console.WriteLine(TripleIt(myAge));
+
+            Console.WriteLine(RealMultiply(5, 10));
+
+            Console.WriteLine(RealMultiply(2, myAge));
+
+            SuperLoop(RealMultiply(1, 5), TripleIt(myAge), TripleIt(myAge - 10));
+
+            SuperLoop(RealMultiply(1, TripleIt(3)), TripleIt(RealMultiply(myAge, 7)), TripleIt(myAge - RealMultiply(2, 4)));
+
             Console.ReadKey();
+
+
+
+
+        }
+        static void myGreeting(string name)
+        {
+            Console.WriteLine(" Hello, " + name);
         }
 
-        //FUNCTIONS GO HERE
-        static void WhileLoopTest()
+        static void DoubleIt(int num1)
         {
-            //while loop from 1=>10
-            
-            //declare our incrementor
-            int i = 1;
-            //define the while loop condition
-            while (i <= 10)
+            Console.WriteLine(num1 + " doubled is " + num1 * 2);
+        }
+
+        static void Multiply(int num1, int num2)
+        {
+            Console.WriteLine(num1 + " times " + num2 + " is " + (num1 * num2));
+        }
+
+        static void LoopThis(int startNum, int endNum)
+        {
+            Console.WriteLine("I'm looping from " + startNum + " to " + endNum);
+            for (int i = startNum; i <= endNum; i++)
             {
                 Console.WriteLine(i);
-                //make sure to increment i
-                i = i + 1;
             }
+
+
         }
 
-        static void FlipACoin(int flips)
+        static void SuperLoop(int startNum, int endNum, int increment)
         {
-            //declaring integers to hold how
-            // many times we've flipped heads or tails
-            int countHeads = 0;
-            int countTails = 0;
-
-            //create a random number generator
-            // to "flip" our coin
-            Random rng = new Random(76546);
-
-            //flip the coin as many times as the flips
-            // parameter says we should
-            for (int i = 0; i < flips; i = i + 1)
+            int loopCount = 0;
+            Console.WriteLine("I'm looping from " + startNum + " to " + endNum + " ,incrementing " + increment + " each time.");
+            for (int i = startNum; i <= endNum; i += increment)
             {
-                //flip that coin
-                int flip = rng.Next(0, 2);
-                if (flip == 0)
-                {
-                    //it was a tails, increase our counter
-                    countTails = countTails + 1;
-                }
-                else
-                {
-                    countHeads = countHeads + 1;
-                }
-            }
-            //output the number of heads
-            Console.WriteLine("# of Heads: " + countHeads);
-            Console.WriteLine("# of Tails: " + countTails);
-        }
+                Console.WriteLine(i);
+                loopCount++;
 
-        //flip a coin until we get X number of heads
-        static void FlipForHeads(int numHeads)
+            }
+            Console.WriteLine("That loop was craaaaaazy, we looped " + loopCount + " times.");
+
+        }
+        static string NewGreeting(string name)
         {
-            //counts how many heads we've flipped
-            int headsFlipped = 0;
-            //count the total flips
-            int totalFlips = 0;
-            //random number generator to 
-            //"flip" our coin 
-            Random rng = new Random();
-
-            //do a while loop to flip coins
-            // until we have reached the desired 
-            // number of heads
-            while (numHeads != headsFlipped)
-            {
-                //flip a coin
-                int flip = rng.Next(0, 2);
-                if (flip == 0)
-                {
-                    //its a head
-                    headsFlipped = headsFlipped + 1;
-                }
-                //add a flip to our total flip count
-                totalFlips = totalFlips + 1;
-            }
-            //write the output of how many flips it took
-            // to find all the heads
-            Console.WriteLine("It took " + totalFlips 
-                + " flips to get " + numHeads + " heads");
+            return "Hello, " + name;
         }
+
+        static int TripleIt(int number)
+        {
+            return number * 3;
+        }
+
+        static int RealMultiply(int num1, int num2)
+        {
+            return num1 * num2;
+        }
+
+
     }
-}
 
+
+
+}
