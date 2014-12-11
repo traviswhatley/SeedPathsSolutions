@@ -16,6 +16,10 @@ $(document).ready(function () {
     });
 
     //AJAX FORM POSTS
+    $('.ajax-form').on('submit', function () {
+
+    });
+
     $('body').on('submit', '.ajax-form', function (event) {
         //event is the action of submitting the form
 
