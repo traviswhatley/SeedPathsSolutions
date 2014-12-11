@@ -28,12 +28,19 @@ namespace HyperSpace
         private static List<string> SymbolList = new List<string>() { ".", "'", ";", ":", "*", "#", "!" };
         public Unit(int x, int y)
         {
-            this.X = x; this.Y = y; this.Color = ConsoleColor.Cyan; this.Symbol = SymbolList[rng.Next(SymbolList.Count)];
+            this.X = x; 
+            this.Y = y; 
+            this.Color = ConsoleColor.Cyan; 
+            this.Symbol = SymbolList[rng.Next(SymbolList.Count)];
         }
 
         public Unit(int x, int y, ConsoleColor color, string symbol, bool isSpaceRift)
         {
-            this.X = x; this.Y = y; this.Color = color; this.Symbol = symbol; this.IsSpaceRift = isSpaceRift;
+            this.X = x; 
+            this.Y = y; 
+            this.Color = color; 
+            this.Symbol = symbol; 
+            this.IsSpaceRift = isSpaceRift;
         }
 
         public void Print()
@@ -59,7 +66,9 @@ namespace HyperSpace
             Console.BufferHeight = Console.WindowHeight = 30;
             Console.BufferWidth = Console.WindowWidth = 60;
 
-            this.Score = 0; this.Speed = 0; this.UnitList = new List<Unit>();
+            this.Score = 0; 
+            this.Speed = 0;
+            this.UnitList = new List<Unit>();
             this.SpaceShip = new Unit((Console.WindowWidth / 2) - 1, Console.WindowHeight - 1, ConsoleColor.Red, "@", false);
 
 
@@ -136,6 +145,7 @@ namespace HyperSpace
                     //collision
                     this.Smashed = true;
                 }
+
                 if (unit.Y < Console.WindowHeight)
                 {
                     newList.Add(unit);
