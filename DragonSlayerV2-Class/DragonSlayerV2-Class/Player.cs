@@ -6,42 +6,28 @@ using System.Threading.Tasks;
 
 namespace DragonSlayerV2_Class
 {
-    class Player
+
+    class Actor
+    {
+        public int HP { get; set; }
+        public string Name { get; set; }
+        public bool IsAlive { get { return HP > 0; } }
+        public Random rng { get; set; }
+        public Actor(int hp, string name)
+        {
+            this.HP = hp; this.Name = name; this.RNG = new Random();
+        }
+        public void DoAttack(Actor actor);
+    }
+    class Player :Actor
     {
         //enum for attack types
         public enum AttackType { Sword = 1, Magic, Heal }
 
-        //Health of our player
-        private int _hp;
-        public int HP
-        {
-            get { return _hp; }
-            set { _hp = value; }
-        }
-
-        //player's name
-        private string _name;
-
-        public string Name
-        {
-            get { return _name; }
-            set { _name = value; }
-        }
-
-        //read-only property for IsAlive
-        public bool IsAlive
-        {
-            get { return this.HP > 0; }
-        }
-
-        //create a RNG
-        private Random rng = new Random();
 
         //Constructor
-        public Player(string name, int startingHP)
+        public Player(string name, int startingHP) : base(startingHP, name)
         {
-            //initialize the player
-            this.Name = name; this.HP = startingHP;
         }
         
         //create new function to choose attack
@@ -58,7 +44,7 @@ Choose Attack:
             return (AttackType)input;
         }
 
-        public void Attack(Enemy enemy)
+        public override void DoAttack(Actor actor)
         {
             //use a switch statement to perform
             // the attack
@@ -73,23 +59,23 @@ Choose Attack:
                         //Hit! Deal 15-30 damage
                         damage = rng.Next(15, 31);
                         //deal the damage to the enemy
-                        enemy.HP -= damage;
+                        actor.HP -= damage;
                         //write output to the user
-                        Console.WriteLine("{0} deals {1} damage to {2}", this.Name, damage, enemy.Name);
+                        Console.WriteLine("{0} deals {1} damage to {2}", this.Name, damage, actor.Name);
                     }
                     else
                     {
                         //missed
-                        Console.WriteLine("{0} missed {1} with the sword!", this.Name, enemy.Name);
+                        Console.WriteLine("{0} missed {1} with the sword!", this.Name, actor.Name);
                     }
                     break;
                 case AttackType.Magic:
                     //magic always deal 5-15 damage
                     damage = rng.Next(5, 16);
                     //deal damage to enemy
-                    enemy.HP -= damage;
+                    actor.HP -= damage;
                     //write to the console
-                    Console.WriteLine("{0} did {1} damage to {2}", this.Name, damage, enemy.Name);
+                    Console.WriteLine("{0} did {1} damage to {2}", this.Name, damage, actor.Name);
                     break;
                 case AttackType.Heal:
                     //always heals for 10-20

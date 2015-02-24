@@ -6,3 +6,6 @@ C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\GuessThatNumber-WithHighScore
 C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\GuessThatNumber-WithHighScores\GuessThatNumber-WithHighScores\bin\Debug\EntityFramework.dll
 C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\GuessThatNumber-WithHighScores\GuessThatNumber-WithHighScores\bin\Debug\EntityFramework.xml
 C:\Users\Admin\Documents\GitHub\SeedPathsSolutions\GuessThatNumber-WithHighScores\GuessThatNumber-WithHighScores\obj\Debug\GuessThatNumber-WithHighScores.csprojResolveAssemblyReference.cache
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions\GuessThatNumber-WithHighScores\GuessThatNumber-WithHighScores\bin\Debug\GuessThatNumber-WithHighScores.exe.config
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions\GuessThatNumber-WithHighScores\GuessThatNumber-WithHighScores\obj\Debug\GuessThatNumber-WithHighScores.exe
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions\GuessThatNumber-WithHighScores\GuessThatNumber-WithHighScores\obj\Debug\GuessThatNumber-WithHighScores.pdb
